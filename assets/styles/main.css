@@ -7,7 +7,7 @@ html, body {
 
 body {
   background-color: #2e3141;
-  background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.3)), url("../images/blurBackground.jpg");
+  background-image: linear-gradient(to top, rgba(46, 49, 90, 0.8), rgba(46, 49, 65, 0.3)), url("../images/blurBackground.jpg");
   background-size: auto, cover;
   background-attachment: fixed, fixed;
   background-position: center, center;
@@ -175,4 +175,30 @@ hr {
 
 .wrapper1 .underline {
   border-bottom: 1px dashed white;
+}
+
+.text-muted {
+  color: white;
+}
+
+.calendar .contrib-number {
+  color: white;
+  text-shadow: 1px 1px 2px blue;
+}
+
+.calendar .f4 {
+  text-shadow: 1px 1px 2px blue;
+}
+
+.calendar {
+  background: rgba(0,0,0,.5);
+}
+
+.calendar .text-gray a {
+  color: #ff245a;
+  font-size: 14px;
+}
+
+.calendar {
+  margin-bottom: 20px;
 }
