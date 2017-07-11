@@ -15,6 +15,11 @@ body {
   color: white;
 }
 
+section {
+  padding-top: 70px;
+  padding-bottom: 40px;
+}
+
 /*=================
   Nav Bar
 =================*/
@@ -177,6 +182,8 @@ hr {
   border-bottom: 1px dashed white;
 }
 
+/*******github calendar*******/
+
 .text-muted {
   color: white;
 }
@@ -201,4 +208,26 @@ hr {
 
 .calendar {
   margin-bottom: 20px;
+}
+
+/*==============
+  section 2
+==============*/
+.wrapper2 .quote {
+  background: #070000;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #070000, #4C0001, #070000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #070000, #4C0001, #070000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+blockquote {
+  border: none;
+  padding: 25px;
+  font-size: 2em;
+  text-align: center;
+}
+
+blockquote .author {
+  text-align: right;
+  font-size: .7em;
+  float: right;
 }
