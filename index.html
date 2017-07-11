@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Japteg</title>
+  <link href="https://fonts.googleapis.com/css?family=Raleway:200,400,700" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
@@ -12,19 +13,17 @@
 </head>
 <body data-spy="scroll" data-target="#header">
 
+<!-- =====================
+    Nav Bar
+===================== -->
+
   <nav class="navbar navbar-inverse navbar-fixed-top" id="header">
     <div class="container">
       <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
-          <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-        </button>
         <a class="navbar-brand" href="#">Japteg Singh</a>
       </div>
 
-      <div class="collapse navbar-collapse" id="navbar-collapse">
+      <div>
         <ul class="nav navbar-nav navbar-right">
           <li style="margin-top:10%"><a href="JavaScript:void(0)" id="menuOpenBtn" style="padding:6px">&#9776; Menu</a></li>
         </ul>
@@ -32,11 +31,15 @@
     </div>
   </nav>
 
+  <!-- =====================
+      Pop-up Menu
+  ===================== -->
+
   <div id="menu" class="overlay">
     <div class="menu-content">
       <div id="close"><a id="closebtn" style="cursor:pointer">&times;</a></div>
       <div class="overlay-content">
-        <li><a href="#aboutMe">About Me</a></li>
+        <li><a href="">About Me</a></li>
         <li><a href="#objective">Objective</a></li>
         <li><a href="#personal">Personal Profile</a></li>
         <li><a href="#qualification">Qualifications</a></li>
@@ -47,17 +50,33 @@
     </div>
   </div>
 
-<div class="content-wrapper">
+<div class="page-wrapper">
 
   <div class="container">
-    <div class="alert alert-danger" role="alert" style="padding:10px">Under Development</div>   
+    <div class="alert alert-danger" role="alert" style="padding:10px;">Under Development</div>
   </div>
+
+  <section class="wrapper1">
+    <img src="./assets/images/me.jpg" class="img-circle test" width="200" height="200">
+    <h1>Japteg Singh</h1>
+    <hr>
+    <p id="short-info">
+      CSE Major at <span class="underline">Jaypee Institute Of Information Technology</span>,
+      <br>Noida
+      <br />Sleep | Eat | Code | Fifa | Reapeat
+    </p>
+    <div>
+      <i class="fa fa-linkedin fa-2x faw-up" aria-hidden="true"></i>
+      <i class="fa fa-facebook fa-2x faw-up" aria-hidden="true"></i>
+      <i class="fa fa-twitter fa-2x faw-up" aria-hidden="true"></i>
+      <i class="fa fa-instagram fa-2x faw-up" aria-hidden="true"></i>
+    </div>
+  </section>
 
 </div>
 
 
-
-  <!-- <h1>Under Development</h1> -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" charset="utf-8"></script>
   <script src="./assets/scripts/main.js" charset="utf-8"></script>
 </body>
 </html>
