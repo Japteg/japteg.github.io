@@ -238,3 +238,60 @@ blockquote .author {
   font-style: normal;
   letter-spacing: 1px;
 }
+
+/*==============
+  section 3
+==============*/
+
+.carousel-inner .item {
+  height: 450px;
+}
+
+
+.carousel-content-1 .info {
+	padding: 10px;
+	display: inline-block;
+	font-size: 20px;
+	border-bottom: 1px solid rgba(255,255,255,.4);
+	box-shadow: 0 2px 2px rgba(200,50,50,.8);
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+.info b {
+	text-shadow: 1px 1px 3px red;
+	font-size: 22px;
+}
+
+
+#carousel-content-2-bg {
+	background-color: rgba(46, 10, 84, 0.8);
+}
+
+.carousel-content-2 h1 {
+	border:none;
+	text-shadow: 4px 4px 8px black,3px 3px 10px white;
+}
+
+.carousel-content-2 .table>tbody>tr>td {
+	padding-top: 30px;
+	font-size: 18px;
+}
+
+.carousel-content-2 .table>thead>tr>th {
+	font-size: 20px;
+}
+
+.carousel-control:hover {
+  background: rgba(0,0,0,.3);
+}
+
+.carousel-control {
+  width: 7%;
+}
+
+.item h1 {
+  border-bottom: 2px solid white;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+}
