@@ -182,6 +182,14 @@ hr {
   border-bottom: 1px dashed white;
 }
 
+.wrapper1 a {
+  color: white;
+}
+
+.wrapper1 a:hover {
+  color: #4286f4;
+}
+
 /*******github calendar*******/
 
 .text-muted {
