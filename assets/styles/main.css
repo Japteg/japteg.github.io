@@ -336,3 +336,23 @@ blockquote .author {
    text-shadow: 2px 2px 5px black;
    text-align: left;
  }
+
+ /*==============
+   footer
+ ==============*/
+
+  footer {
+    height: 2.5em;
+    font-size: 1.5em;
+    text-align: center;
+    background: rgba(0,0,0,.8);
+  }
+
+  .footer-content {
+    padding-top: .5em;
+    letter-spacing: .2em;
+  }
+
+  footer .fa-heart {
+    color: red;
+  }
