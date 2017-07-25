@@ -1,0 +1,38 @@
+blockquote {
+  border: none;
+  padding: 10px;
+  font-size: 1.5em;
+  text-align: center;
+  font-family: 'Droid Serif', serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+h1 {
+  /*font-size: 32px;*/
+}
+
+.carousel-inner .item {
+  height: auto;
+}
+
+.carousel-content-1 .info {
+	padding: 10px;
+	font-size: 16px;
+}
+
+.info b {
+	font-size: 18px;
+}
+
+.carousel-content-2 .table>thead>tr>th {
+	font-size: 16px;
+}
+
+.carousel-control {
+  width: 10%;
+}
+
+.wrapper4 h1 {
+  font-size: 40px;
+}
