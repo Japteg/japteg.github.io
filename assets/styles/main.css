@@ -206,8 +206,19 @@ blockquote .author {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
+.carousel-content-1 .aboutme-content {
+  padding: 20px;
+  font-family: raleway;
+  text-shadow: 1px 1px 1px black;
+}
 
-.carousel-content-1 .info {
+.carousel-content-1 .aboutme-content .moto {
+  margin: 30px;
+  font-size: 1.2em;
+}
+
+
+.carousel-content-2 .info {
 	padding: 10px;
 	display: inline-block;
 	font-size: 20px;
@@ -222,26 +233,17 @@ blockquote .author {
 	font-size: 22px;
 }
 
-.carousel-content-1 h1 {
-  text-shadow: 2px 2px 2px black,3px 3px 2px rgba(255,0,0,.7);
-}
 
-
-#carousel-content-2-bg {
+#carousel-content-3-bg {
 	background-color: rgba(0, 0, 0, 0.3);
 }
 
-.carousel-content-2 h1 {
-	border:none;
-	text-shadow: 2px 2px 2px black,3px 3px 2px rgba(255,0,0,.7);
-}
-
-.carousel-content-2 .table>tbody>tr>td {
+.carousel-content-3 .table>tbody>tr>td {
 	padding-top: 30px;
 	font-size: 18px;
 }
 
-.carousel-content-2 .table>thead>tr>th {
+.carousel-content-3 .table>thead>tr>th {
 	font-size: 20px;
 }
 
@@ -257,6 +259,7 @@ blockquote .author {
   border-bottom: 2px solid white;
   padding-bottom: 10px;
   margin-bottom: 30px;
+  text-shadow: 2px 2px 2px black,3px 3px 2px rgba(255,0,0,.7);
 }
 
 /*==============
