@@ -18,15 +18,25 @@ blockquote {
   font-style: italic;
 }
 
-h1 {
-  /*font-size: 32px;*/
-}
+
 
 .carousel-inner .item {
   height: auto;
 }
 
-.carousel-content-1 .info {
+[class*="carousel-content-"] h1 {
+  font-size: 32px;
+}
+
+.carousel-content-1 .aboutme-content {
+  font-size: 20px;
+}
+
+.carousel-content-1 .aboutme-content .moto {
+  font-size: 22px;
+}
+
+.carousel-content-2 .info {
 	padding: 10px;
 	font-size: 16px;
 }
@@ -35,11 +45,11 @@ h1 {
 	font-size: 18px;
 }
 
-.carousel-content-2 .table>thead>tr>th {
+.carousel-content-3 .table>thead>tr>th {
 	font-size: 16px;
 }
 
-.carousel-content-2 .table>tbody>tr>td {
+.carousel-content-3 .table>tbody>tr>td {
 	padding-top: 15px;
 	font-size: 14px;
 }
@@ -49,5 +59,9 @@ h1 {
 }
 
 .wrapper4 h1 {
-  font-size: 40px;
+  font-size: 48px;
+}
+
+.wrapper4 i {
+  font-size: .8em;
 }

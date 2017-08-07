@@ -36,6 +36,11 @@ section {
 
 .nav #nav-header {
   font-size: 1.7em;
+  padding-bottom: 15px;
+}
+
+.nav #nav-header:hover {
+  border-bottom: 3px solid white;
 }
 
 .nav li {
@@ -215,6 +220,8 @@ blockquote .author {
 .carousel-content-1 .aboutme-content .moto {
   margin: 30px;
   font-size: 1.2em;
+  background: rgba(52,0,60,.5);
+  padding: 10px;
 }
 
 
