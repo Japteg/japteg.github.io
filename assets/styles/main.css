@@ -213,13 +213,14 @@ blockquote .author {
 
 .carousel-content-1 .aboutme-content {
   padding: 20px;
-  font-family: raleway;
+  letter-spacing: .2px;
   text-shadow: 1px 1px 1px black;
 }
 
 .carousel-content-1 .aboutme-content .moto {
   margin: 30px;
-  font-size: 1.2em;
+  font-size: 1.1em;
+  font-style: italic;
   background: rgba(52,0,60,.5);
   padding: 10px;
 }
