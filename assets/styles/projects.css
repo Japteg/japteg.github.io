@@ -111,3 +111,14 @@ h1 {
   font-size: 1.5em;
   text-shadow: 1px 1px black;
 }
+
+.p-content .link {
+  font-size: 1.1em;
+  text-decoration: none;
+  color: rgb(36, 2, 75);
+  text-shadow: .5px .5px rgba(0, 0, 0, 0);
+}
+
+.p-content .link:hover {
+  text-shadow: .5px .5px rgba(255,255,255,.2);
+}
