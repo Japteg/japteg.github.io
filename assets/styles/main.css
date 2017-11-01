@@ -9,7 +9,7 @@ body {
   background-color: #2e3141;
   background-image: linear-gradient(to top, rgba(46, 49, 90, 0.8), rgba(46, 49, 65, 0.3)), url("../images/blurBackground.jpg");
   background-size: cover, cover;
-  background-attachment: fixed, fixed;
+  background-attachment: fixed, fixed !important;
   background-position: center, center;
   position: relative;
   color: white;
